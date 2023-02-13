@@ -65,7 +65,9 @@ li{
     height: 100px;
     line-height: 100px;
 }
-
+.right{
+    text-align: right;
+}
 .header-links{
     width: 50%;
 }
@@ -76,7 +78,7 @@ li{
     top: 6px;
 }
 
-.fixed-header li:hover{
+.header-links li:hover{
     border-bottom: 5px solid black;
 }
 
