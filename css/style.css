@@ -20,8 +20,8 @@ body{
 /* colors */
     --blue-M:#0061FF;
     --lightBlue-H:#B4D0E7;
-/*width*/
-    --width:80%;
+/*wrapper-width*/
+    --width:70%;
 
 }
 
@@ -43,7 +43,19 @@ li{
     color: #fff;
 }
 
+.wrapper{
+    margin: 0 auto;
+    height: 100%;
+   
+}
 
+/* typography */
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
 /* header section --------------------------------------------------------- */
 
 /* fixed header */
@@ -88,6 +100,35 @@ li{
     background-color: var(--lightBlue-H);
     height: calc(500px + 100px);
     width: 100%;
-    border: var(--border);
     padding-top: 100px;
+}
+
+.wrapper{
+    width: var(--width);
+    /* debug */
+    border: var(--border);
+    
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+col{
+    width: 30%;
+    
+}
+
+.bigger{
+    
+    min-width: 70%;
+}
+
+#jumbo-img{
+    max-width: 70%;
 }
