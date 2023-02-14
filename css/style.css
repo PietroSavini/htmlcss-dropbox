@@ -79,6 +79,18 @@ h2{
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
+
+h3{
+    margin-bottom: 1rem;
+}
+
+.card-main p{
+    margin-bottom: 1rem;
+}
+
+i{
+    margin-right: 0.5rem;
+}
 /* header section --------------------------------------------------------- */
 
 /* fixed header */
@@ -175,8 +187,10 @@ h2{
     min-height: 600px;
     width: calc(100% / 3 - 20px);
     border: var(--card-border);
+    margin-bottom: 2.5rem;
 }
 
+/* card header */
 .card-header{
     height: 40px;
     line-height: 40px;
@@ -184,13 +198,32 @@ h2{
     border-bottom:var(--card-border);
 }
 
-.card-header i{
-    margin-right: 0.5rem;
-}
 
+
+/* card main */
 .card-main{
     padding: var(--padding-card);
-    line-height: 35px;
     width: 100%;
+    
 }
 
+.price{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.time{
+    color: #75757a;
+    margin-bottom: 2rem;
+}
+
+.card-main i{
+    display: inline-block;
+}
+
+.card-large{
+    width: 100%;
+    height: 300px;
+    border: var(--card-border);
+}
