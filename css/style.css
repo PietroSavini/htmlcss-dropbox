@@ -55,6 +55,10 @@ li{
 .btn:hover span{
     background-color: #5897fd;
 }
+
+.col-partner .btn:hover span{
+    background-color: #5897fd;
+}
 .wrapper{
     margin: 0 auto;
     height: 100%;
@@ -64,7 +68,8 @@ li{
 }
 
 section{
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
+    padding-top: 1.5rem;
 }
 /* utilities */
 .mb-1{
@@ -171,7 +176,7 @@ i{
     margin-bottom: 2rem;
 }
 /* main---------------------------------------------------------- */
-/* Business */
+/* Business------------------------------------------------------ */
 .wrapper input{
     margin-right: 0.5rem;
     margin-bottom: 3rem;
@@ -291,4 +296,35 @@ li>p{
 
  .col{
     width: 30%;
+}
+
+/* section partner---------------------------------------------------------- */
+
+.partner{
+    display: flex;
+    height: 550px;
+}
+
+.partner div:first-child{
+    width: 60%;
+}
+
+.partner div:last-child{
+    width: 40%;
+    padding:2rem 3rem
+}
+
+.col-partner img{
+    max-height: 100%;
+    width: 100%;
+}
+
+.col-partner p{
+    margin-bottom: 2rem
+}
+
+.col-partner .btn span{
+    color: black;
+    background-color: #fff;
+    border: var(--border);
 }
