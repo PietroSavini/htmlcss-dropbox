@@ -207,8 +207,7 @@ i{
 .card-main{
     padding: var(--padding-card);
     width: 100%;
-    height: 100%;
-    
+    height: calc(100% - 40px); 
 }
 
 .price{
@@ -219,13 +218,6 @@ i{
 
 .time{
     color: #75757a;
-   
-}
-
-.card-large{
-    width: 100%;
-    height: 300px;
-    border: var(--card-border);
 }
 
 .align{
@@ -275,4 +267,28 @@ li>p{
     color: black ;
     font-size: 1rem;
     margin-left: 5px;
+}
+
+/* large card */
+.card-large{
+    width: 100%;
+    height: 300px;
+    border: var(--card-border);
+}
+
+.large-flex{
+    display: flex;
+
+}
+
+.col-large{
+    width: 70%;
+}
+
+.col-large .price{
+    margin-bottom: 5rem;
+}
+
+ .col{
+    width: 30%;
 }
