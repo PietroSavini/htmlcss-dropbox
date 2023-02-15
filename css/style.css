@@ -353,7 +353,7 @@ li>p{
 
 .row{
     width: 100%;
-    max-height: 400px;
+    height: 30vw;
     display: flex;
 }
 
@@ -387,7 +387,14 @@ li>p{
 
 .s2{
     padding: 1.5rem 1.5rem;
-    overflow: auto;
+    overflow-y: auto;
+    background-color: #F5F5F5;
+    align-items: flex-start;
+    
+}
+
+.s2 img{
+    max-width: 50%;
 }
 
 .banners-logo{
@@ -416,10 +423,6 @@ li>p{
 
 .lg-4{
     background-color:#FF1C1C ;
-}
-
-.s2{
-    background-color: #F5F5F5;
 }
 
 .lg-5{
