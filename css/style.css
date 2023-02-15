@@ -463,13 +463,51 @@ li>p{
 }
 
 .col-30{
-    width: 30%;
-    text-align: center;
+    width: 40%;
     padding-top: 10px;
+    text-align: right;
 }
 
 .col-30 span{
     background-color: #fff;
     color: inherit;
-    margin: auto 0;
+    
+}
+
+
+
+/* faq section */
+
+.FAQ .wrapper{
+    width: 100%;
+}
+.col-30 i{
+    margin-right: 4rem;
+    font-weight: bold;
+}
+.row-1{
+    width: 100%;
+    border-bottom: 1px solid #9A9A9A;
+    padding:2rem 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden{
+    display: none;
+    margin-top: 1rem;
+    margin-left: 2rem
+}
+
+.row-1:hover .hidden{
+    display: block;
+}
+
+.row-1:hover i{
+    transform: rotate(180deg);
+}
+
+.row-1 i{
+    transition: 500ms;
+    
 }
