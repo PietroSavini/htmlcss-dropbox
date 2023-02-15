@@ -440,3 +440,36 @@ li>p{
 .lg-8{
     background-color: #FFD830;
 }
+
+/* Call to Action  */
+
+.cta{
+    height: 300px;
+    width: 100%;
+    background-color: #B4D0E7;
+}
+
+.cta .wrapper{
+    display: flex;
+    padding: 5rem;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-60 h2{
+    color:#5A001F ;
+}
+
+.col-30{
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.col-30 span{
+    background-color: #fff;
+    color: inherit;
+    margin: auto 0;
+}
