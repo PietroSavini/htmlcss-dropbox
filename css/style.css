@@ -344,7 +344,7 @@ li>p{
     min-height: 50%;
 }
 
-/* section Teams - big banner with logos */
+/* section Teams - big banner with logos------------------------------------------- */
 
 .big-banner{
     width: 100%;
@@ -441,7 +441,7 @@ li>p{
     background-color: #FFD830;
 }
 
-/* Call to Action  */
+/* Call to Action ------------------------------------------------------- */
 
 .cta{
     height: 300px;
@@ -476,7 +476,7 @@ li>p{
 
 
 
-/* faq section */
+/* faq section -------------------------------------------------------*/
 
 .FAQ .wrapper{
     width: 100%;
@@ -509,5 +509,45 @@ li>p{
 
 .row-1 i{
     transition: 500ms;
-    
 }
+
+/* footer -----------------------------------------------------------------------*/
+footer section{
+    background-color: black;
+    margin: 0 0;
+    height: 400px;
+    padding-top: 4rem;
+    color: #fff
+}
+footer .wrapper{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    display: inline-block;
+    ;
+}
+
+footer li{
+    line-height: 2rem;
+}
+
+.language{
+   max-width: 1100px;
+   margin: 0 auto;
+   color: #75757a;
+}
+.language i{
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.language div{
+    display: inline-block;
+    width: 15%;
+    border-top: 1px solid #75757a;
+    padding-top:2rem
+}
+
